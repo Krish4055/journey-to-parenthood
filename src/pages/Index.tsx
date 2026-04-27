@@ -1,16 +1,29 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Header from "@/components/landing/Header";
+import Hero from "@/components/landing/Hero";
+import WhyNova from "@/components/landing/WhyNova";
+import Stats from "@/components/landing/Stats";
+import Doctors from "@/components/landing/Doctors";
+import Services from "@/components/landing/Services";
+import Awards from "@/components/landing/Awards";
+import IvfCta from "@/components/landing/IvfCta";
+import SuccessStories from "@/components/landing/SuccessStories";
+import Footer from "@/components/landing/Footer";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
-    </div>
+    <main id="top" className="min-h-screen bg-background">
+      <Header />
+      <Hero />
+      <WhyNova />
+      <Stats />
+      <Doctors />
+      <Services />
+      <Awards />
+      <IvfCta />
+      <SuccessStories />
+      <Footer />
+    </main>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;
