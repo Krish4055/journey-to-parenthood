@@ -10,7 +10,7 @@ const SuccessStories = () => (
       </p>
 
       <div className="mt-8 inline-flex items-center gap-3 bg-card rounded-full px-6 py-3 shadow-md border border-border">
-        <div className="flex items-center gap-1 text-yellow-500">
+        <div className="flex items-center gap-1" style={{ color: "hsl(45 93% 50%)" }}>
           {Array.from({ length: 5 }).map((_, i) => (
             <Star key={i} className="w-5 h-5 fill-current" />
           ))}
